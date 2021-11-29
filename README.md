@@ -2,6 +2,8 @@
 
 用于检查代码中是否包含中文，检查i18n
 
+请在多语言文件中添加`/* eslint-disable no-chinese/no-chinese */`注释
+
 ## Installation
 
 You'll first need to install [ESLint](https://eslint.org/):
@@ -34,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "no-chinese/rule-name": 2
+        "no-chinese/no-chinese": "error"
     }
 }
 ```

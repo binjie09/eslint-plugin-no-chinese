@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-chinese",
-  "version": "0.0.0",
+  "version": "1.2.256",
   "description": "用于检查代码中是否包含中文，检查i18n",
   "keywords": [
     "eslint",
