@@ -36,7 +36,8 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "no-chinese/no-chinese": "error"
+        "no-chinese/no-chinese": "error",
+        "no-chinese/no-console-chinese": "warn"
     }
 }
 ```
